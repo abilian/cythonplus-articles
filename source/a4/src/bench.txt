@@ -1,0 +1,55 @@
+Mon Mar 21 14:45:33 UTC 2022
+Benchmark (Xeon 4 cores)
+
+----------------------------------------
+Python version:
+length of sequence: 50, last element: 13
+length of sequence: 50, last element: 13
+length of sequence: 50, last element: 13
+length of sequence: 50, last element: 13
+length of sequence: 50, last element: 13
+length of sequence: 50, last element: 13
+1 loop, best of 5: 17.8 sec per loop
+Minimal Cython version:
+length of sequence: 50, last element: 13
+length of sequence: 50, last element: 13
+length of sequence: 50, last element: 13
+length of sequence: 50, last element: 13
+length of sequence: 50, last element: 13
+length of sequence: 50, last element: 13
+1 loop, best of 5: 3.5 sec per loop
+Cython+ version:
+length of sequence: 50, last element: 13
+length of sequence: 50, last element: 13
+length of sequence: 50, last element: 13
+length of sequence: 50, last element: 13
+length of sequence: 50, last element: 13
+length of sequence: 50, last element: 13
+length of sequence: 50, last element: 13
+length of sequence: 50, last element: 13
+length of sequence: 50, last element: 13
+length of sequence: 50, last element: 13
+length of sequence: 50, last element: 13
+length of sequence: 50, last element: 13
+length of sequence: 50, last element: 13
+length of sequence: 50, last element: 13
+length of sequence: 50, last element: 13
+length of sequence: 50, last element: 13
+length of sequence: 50, last element: 13
+length of sequence: 50, last element: 13
+length of sequence: 50, last element: 13
+length of sequence: 50, last element: 13
+length of sequence: 50, last element: 13
+length of sequence: 50, last element: 13
+length of sequence: 50, last element: 13
+length of sequence: 50, last element: 13
+length of sequence: 50, last element: 13
+length of sequence: 50, last element: 13
+length of sequence: 50, last element: 13
+length of sequence: 50, last element: 13
+length of sequence: 50, last element: 13
+length of sequence: 50, last element: 13
+length of sequence: 50, last element: 13
+length of sequence: 50, last element: 13
+length of sequence: 50, last element: 13
+5 loops, best of 5: 48.4 msec per loop

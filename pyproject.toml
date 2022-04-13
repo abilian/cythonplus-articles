@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "cythonplus-articles"
+version = "0.1.0"
+description = ""
+authors = ["Abilian <contact@abilian.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+sphinx-press-theme = "^0.8.0"
+myst-parser = "^0.17.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
